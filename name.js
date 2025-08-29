@@ -1,4 +1,4 @@
-function fullName(firstName, lastName) {
+function fullNameFn(firstName, lastName) {
 
     const fullName = {
         firstName: '',
@@ -8,8 +8,14 @@ function fullName(firstName, lastName) {
     return fullName
 }
 
-const NameComplete = fullName('', '')
+const NameComplete = fullNameFn('', '')
 
 console.log(NameComplete)
 
+//mjs export//
+
 export { NameComplete }
+
+//commonJs export//
+
+//module.exports = fullNameFn;
