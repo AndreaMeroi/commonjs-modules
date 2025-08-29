@@ -11,3 +11,5 @@ function fullName(firstName, lastName) {
 const NameComplete = fullName('', '')
 
 console.log(NameComplete)
+
+export { NameComplete }

@@ -5,6 +5,8 @@ function hobbieslist(hobbyOne, hobbyTwo, hobbyThree) {
     return hobbiesList
 }
 
-const fullHobbiesList = hobbieslist('')
+const fullHobbiesList = hobbieslist('', '', '')
 
 console.log(fullHobbiesList);
+
+export { fullHobbiesList }
